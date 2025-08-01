@@ -1,0 +1,44 @@
+.main {
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        gap: 0;
+    }
+
+    &__content {
+        flex-direction: column;
+        width: 40%;
+
+        p {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Unbounded';
+            font-weight: 900;
+            color: var(--color--dark-blue);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    &__picture {
+        align-items: center;
+        max-width: 600px;
+    }
+}
+
+.backpack-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
