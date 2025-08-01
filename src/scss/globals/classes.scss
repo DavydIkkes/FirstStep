@@ -17,3 +17,21 @@
         flex-wrap: wrap;
     }
 }
+
+.justify {
+    &--center {
+        justify-content: center;
+    }
+    
+    &--start {
+        justify-content: start;
+    }
+
+    &--end {
+        justify-content: end;
+    }
+
+    &--between {
+        justify-content: space-between;
+    }
+}
