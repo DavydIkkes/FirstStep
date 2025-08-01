@@ -31,7 +31,6 @@ $.gulp.task('server', function () {
 $.gulp.task('watch', function () {
     $.gulp.watch('./src/**/*.html', $.gulp.series('html')).on('change', $.browserSync.reload);
     $.gulp.watch('./src/scss/**/*.scss', $.gulp.series('scss')).on('change', $.browserSync.reload);
-    $.gulp.watch('./src/partials/**/*.html', $.gulp.series('html')).on('change', $.browserSync.reload);
 });
 
 $.gulp.task('default', $.gulp.series(
