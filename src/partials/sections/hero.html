@@ -1,18 +1,20 @@
-<section class="hero flex flex-row">
+<section class="hero flex flex--row">
+
   <div class="hero__block hero__info flex flex--column">
     <div class="hero__info-item">
       <h1 class="hero__info-title">Рюкзаки, що задають твій вайб</h1>
     </div>
+
     <div class="hero__info-item">
       <p class="hero__info-text">
         Легкий, стильний, зручний. Ідеальний для навчання, подорожей та
         прогулянок.
       </p>
-      <a class="hero__info-btn">Обрати свій рюкзак</a>
+      <a href="/FirstStep/" rel="home" aria-label="Головна сторінка" class="hero__info-btn">Обрати свій рюкзак</a>
     </div>
-    
+
     <div class="hero__info-item flex flex--column">
-      <a href="/" >
+      <a href="/FirstStep/" rel="home" aria-label="Головна сторінка">
         <svg
           class="hero__info-btn-social"
           width="35"
@@ -29,7 +31,7 @@
         </svg>
       </a>
 
-      <a href="/">
+      <a href="/FirstStep/" rel="home" aria-label="Головна сторінка">
         <svg
           class="hero__info-btn-social"
           xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +50,13 @@
         </svg>
       </a>
     </div>
+
   </div>
+
   <div class="hero__block hero__picture flex">
     <picture>
       <source srcset="./img/hero_image.avif" type="image/avif" />
+      <source srcset="./img/hero_image.webp" type="image/webp" />
       <img
         src="./img/hero_image.png"
         alt="Зображдення рюкзака VibeBag"
@@ -61,4 +66,5 @@
       />
     </picture>
   </div>
+
 </section>
